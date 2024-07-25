@@ -1,0 +1,14 @@
+type Query
+{
+  empbyid(id:ID!):Employee
+
+}
+
+type Employee
+{
+  id:ID!
+  salary:Double!
+  department:String!
+  name:String!
+}
+
